@@ -79,3 +79,5 @@ show PII is only a short term thing it'll give you hints on why you are getting 
 ## Get a token
 In order to get a token you are going to want to setup your postman to be similar to this photo
 ![postman](./photos/postman.png). With the response token you get back you want to copy that, create a new get request to https://localhost:5000/WeatherForecast and add bearer token authorization and paste that token in! Boom you are now using custom roles to authenticate against your API in .Net 6!
+
+## Deploy API to Azure?!
