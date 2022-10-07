@@ -81,3 +81,20 @@ In order to get a token you are going to want to setup your postman to be simila
 ![postman](./photos/postman.png). With the response token you get back you want to copy that, create a new get request to https://localhost:5000/WeatherForecast and add bearer token authorization and paste that token in! Boom you are now using custom roles to authenticate against your API in .Net 6!
 
 ## Deploy API to Azure?!
+Now that our application is working as expected we can now deploy the API to Azure via visual studio code! First we want to click the plus and do create a new web app. 
+![webapp](./photos/TypeOfResource.png)
+Now we need to give it a globally unique name!
+![name](photos/name.png)
+Now we pick our stack
+![stack](photos/Stack.png)
+and finally our tier
+![tier](./photos/Pricing.png)
+Now our infrastructure is setup so we are going to deploy the API itself.
+First you need to right click the API folder and follow the prompts
+![api](./photos/RightClick.png)
+![pick resource group](./photos/PickRG.png)
+![deploy](./photos/Deploy.png)
+![final](./photos/Final.png)
+
+
+Now our API is deployed to Azure, live, and secure! 
